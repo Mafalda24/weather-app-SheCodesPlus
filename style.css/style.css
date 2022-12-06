@@ -1,0 +1,96 @@
+h1 {
+  color: #ed5485;
+  font-family: "Quicksand", sans-serif;
+  margin: 50px auto 0 auto;
+  font-weight: bold;
+}
+h2 {
+  color: #57d1c9;
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  margin: -10;
+}
+
+form {
+  margin: -60px auto 50px 400px;
+  font-size: 17px;
+  font-family: "Quicksand", sans-serif;
+}
+
+form .type-city {
+  border-radius: 30px;
+  border-width: 0.05px;
+  padding: 7px 40px;
+  text-align: center;
+}
+
+form .button {
+  color: #ed5485;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fff;
+  border-color: #57d1c9;
+  border-style: solid;
+  border-width: 1.9px;
+  border-radius: 5px;
+  padding: 7px;
+  box-shadow: 2px 2px 2px rgb(199, 193, 193);
+}
+
+form .button:hover {
+  background-color: #b0e9e5;
+  color: #fff;
+}
+
+.form #current-location-button {
+  color: #ed5485;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+  background-color: #fff;
+  border-color: #57d1c9;
+  border-style: solid;
+  border-width: 1.9px;
+  border-radius: 5px;
+  padding: 7px;
+  box-shadow: 2px 2px 2px rgb(199, 193, 193);
+  margin: -86px 20px 0 745px;
+  position: fixed;
+}
+.form #current-location-button:hover {
+  background-color: #b0e9e5;
+  color: #fff;
+}
+
+.temperature #temperature {
+  font-family: "Quicksand", sans-serif;
+  margin: 25px auto 0;
+  font-size: 40px;
+}
+.units {
+  position: relative;
+  top: -15px;
+}
+
+.description {
+  color: #000;
+  font-size: 13px;
+  font-family: "Quicksand", sans-serif;
+  margin: 20px -190px;
+}
+
+.degrees {
+  margin: 70px 180px -110px 120px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+}
+
+.icons {
+  margin: 110px 90px;
+}
+
+.weekdays {
+  margin: -120px 150px 0 136px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}

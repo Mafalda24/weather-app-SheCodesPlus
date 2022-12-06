@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+    rel="stylesheet"
+  />
+
+  <title>WireframeHTML</title>
+  <body>
+    <div class="container">
+      <h1 id="city">Mexico City</h1>
+      <h2></h2>
+      <h3>
+        <div class="form">
+          <form id="search-form">
+            <input
+              type="search"
+              name="Type in a City"
+              placeholder="Type in a city..."
+              autocomplete="off"
+              class="type-city"
+              id="city-input"
+            />
+            <input type="button" value="Search" class="button" />
+          </form>
+          <button id="current-location-button">Current</button>
+        </div>
+      </h3>
+
+      <div class="temperature">
+        <div class="row">
+          <div class="col">
+            <span class="temperature" id="temperature"> 10</span
+            ><span class="units">°C</span>
+          </div>
+          <div class="col-8">
+            <div class="description">
+              Precipitation: 80%
+              <br />
+              Wind: 9km/h
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="degrees">
+      <div class="row">
+        <div class="col"><strong>21°C</strong>/69°F</div>
+        <div class="col"><strong>15°C</strong>/59°F</div>
+        <div class="col"><strong>0°C</strong>/32°F</div>
+        <div class="col"><strong>13°C</strong>/55°F</div>
+        <div class="col"><strong>19°C</strong>/66°F</div>
+        <div class="col"><strong>27°C</strong>/80°F</div>
+        <div class="col"><strong>0°C</strong>/32°F</div>
+      </div>
+    </div>
+
+    <div class="icons">
+      <div class="row row-cols-auto">
+        <div class="col">
+          <img src="images/sun-monday.svg" alt="sun-monday" width="125px" />
+        </div>
+        <div class="col">
+          <div class="py-1 px-2">
+            <img
+              src="images/rain-tuesday.svg"
+              alt="rain-tuesday"
+              width="125px"
+            />
+          </div>
+        </div>
+        <div class="col">
+          <img
+            src="images/snow-wednesday.svg"
+            alt="snow-wednesday"
+            width="125px"
+          />
+        </div>
+
+        <div class="col">
+          <img
+            src="images/rain-thursday.svg"
+            alt="rain-thursday"
+            width="125px"
+          />
+        </div>
+        <div class="col">
+          <img
+            src="images/cloudy-friday.svg"
+            alt="cloudy-friday"
+            width="125px"
+          />
+        </div>
+        <div class="col">
+          <div class="py-1 px-2">
+            <img
+              src="images/sun-saturday.svg"
+              alt="sun-saturday"
+              width="125px"
+            />
+          </div>
+        </div>
+
+        <div class="col">
+          <img src="images/snow-sunday.svg" alt="snow-sunday" width="125px" />
+        </div>
+      </div>
+    </div>
+    <div class="weekdays">
+      <div class="row gx-1">
+        <div class="col">Mon</div>
+        <div class="col">Tue</div>
+        <div class="col">Wed</div>
+        <div class="col">Thu</div>
+        <div class="col">Fri</div>
+        <div class="col">Sat</div>
+        <div class="col">Sun</div>
+      </div>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
