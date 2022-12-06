@@ -94,3 +94,9 @@ form .button:hover {
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
 }
+
+.gitRepo {
+  font-family: "Quicksand", sans-serif;
+  margin: 80px 115px;
+  font-size: 14px;
+}
