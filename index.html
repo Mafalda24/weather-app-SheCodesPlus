@@ -2,16 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
+    <title>Weather App</title>
   </head>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,52 +20,61 @@
     href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
     rel="stylesheet"
   />
-
-  <title>WireframeHTML</title>
   <body>
     <div class="container">
-      <h1 id="city">Mexico City</h1>
-      <h2></h2>
-      <h3>
-        <div class="form">
-          <form id="search-form">
-            <input
-              type="search"
-              name="Type in a City"
-              placeholder="Type in a city..."
-              autocomplete="off"
-              class="type-city"
-              id="city-input"
-            />
-            <input type="button" value="Search" class="button" />
-          </form>
-          <button id="current-location-button">Current</button>
-        </div>
-      </h3>
-
-      <div class="temperature">
-        <div class="row">
-          <div class="col">
-            <span class="temperature" id="temperature"> 10</span
-            ><span class="units">°C</span>
-          </div>
-          <div class="col-8">
-            <div class="description">
-              Precipitation: 80%
-              <br />
-              Wind: 9km/h
+      <div class="weather-app">
+        <form class="search-form" id="search-form">
+          <div class="row">
+            <div class="col-6">
+              <input
+                type="search"
+                placeholder="Type a city.."
+                autofocus="on"
+                autocomplete="off"
+                id="city-input"
+                class="form-control shadow-sm"
+              />
             </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary shadow-sm w-100"
+              />
+            </div>
+            <div class="col-3">
+              <button
+                class="btn btn-success w-100"
+                id="current-location-button"
+              >
+                Current
+              </button>
+            </div>
+          </div>
+        </form>
+        <h1 id="city"></h1>
+        <ul>
+          <li id="date"></li>
+          <li id="description"></li>
+        </ul>
+        <div class="row">
+          <div class="col-6">
+            <div class="clearfix">
+              <div class="float-left">
+                <span class="temperature" id="temperature"></span
+                ><span class="units">°C</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-    <p class="gitRepo">
-      <a href="https://github.com/Mafalda24/weather-app-SheCodesPlus"
-        >Open-source code</a
-      >
-      by Patricia Rodriguez
-    </p>
-
     <script src="src/script.js"></script>
   </body>
 </html>

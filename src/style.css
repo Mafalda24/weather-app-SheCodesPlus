@@ -1,102 +1,56 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
 h1 {
   color: #ed5485;
-  font-family: "Quicksand", sans-serif;
-  margin: 50px auto 0 auto;
-  font-weight: bold;
-}
-h2 {
-  color: #57d1c9;
-  font-family: "Quicksand", sans-serif;
-  font-size: 15px;
-  margin: -10;
+  font-size: 24px;
+  font-weight: bolder;
+  line-height: 28px;
+  margin: 0;
 }
 
-form {
-  margin: -60px auto 50px 400px;
-  font-size: 17px;
-  font-family: "Quicksand", sans-serif;
+ul {
+  margin: 0 0 10px;
+  padding: 0;
 }
 
-form .type-city {
-  border-radius: 30px;
-  border-width: 0.05px;
-  padding: 7px 40px;
-  text-align: center;
-}
-
-form .button {
-  color: #ed5485;
+li {
+  color: #66bfbf;
   font-size: 16px;
-  font-weight: bold;
-  background-color: #fff;
-  border-color: #57d1c9;
-  border-style: solid;
-  border-width: 1.9px;
-  border-radius: 5px;
-  padding: 7px;
-  box-shadow: 2px 2px 2px rgb(199, 193, 193);
+  font-weight: 300;
+  height: 19px;
+  line-height: 1.5;
+  list-style: none;
 }
 
-form .button:hover {
-  background-color: #b0e9e5;
-  color: #fff;
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px 20px 50px 20px;
+  margin: 20px 50px 80px 0;
+  border-radius: 10px;
+  max-width: 600px;
 }
 
-.form #current-location-button {
-  color: #ed5485;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: "Quicksand", sans-serif;
-  background-color: #fff;
-  border-color: #57d1c9;
-  border-style: solid;
-  border-width: 1.9px;
-  border-radius: 5px;
-  padding: 7px;
-  box-shadow: 2px 2px 2px rgb(199, 193, 193);
-  margin: -86px 20px 0 745px;
-  position: fixed;
-}
-.form #current-location-button:hover {
-  background-color: #b0e9e5;
-  color: #fff;
+.weather-icon {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
 }
 
-.temperature #temperature {
-  font-family: "Quicksand", sans-serif;
-  margin: 25px auto 0;
-  font-size: 40px;
+.temperature {
+  color: #000;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1;
+  margin-top: 10px;
 }
+
 .units {
   position: relative;
-  top: -15px;
+  top: -34px;
 }
 
-.description {
-  color: #000;
-  font-size: 13px;
-  font-family: "Quicksand", sans-serif;
-  margin: 20px -190px;
-}
-
-.degrees {
-  margin: 70px 180px -110px 120px;
-  font-family: "Quicksand", sans-serif;
-  font-size: 15px;
-}
-
-.icons {
-  margin: 110px 90px;
-}
-
-.weekdays {
-  margin: -120px 150px 0 136px;
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
-}
-
-.gitRepo {
-  font-family: "Quicksand", sans-serif;
-  margin: 80px 115px;
-  font-size: 14px;
+.search-form {
+  margin-bottom: 20px;
 }
