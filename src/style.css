@@ -26,8 +26,8 @@ li {
 
 .weather-app {
   border: 1px solid #dadde1;
-  padding: 15px 20px 50px 20px;
-  margin: 20px 50px 80px 0;
+  padding: 15px 20px 40px 20px;
+  margin: 20px 50px 70px 0;
   border-radius: 10px;
   max-width: 600px;
 }
@@ -42,8 +42,8 @@ li {
   color: #000;
   font-size: 50px;
   font-weight: 400;
-  line-height: 1;
-  margin-top: 10px;
+  line-height: 1.5;
+  margin-top: 20px;
 }
 
 .units {
@@ -53,4 +53,25 @@ li {
 
 .search-form {
   margin-bottom: 20px;
+}
+
+#search-button {
+  color: #fff;
+  background-color: #76ebeb;
+  border-style: none;
+}
+#search-button:hover {
+  color: #ed5485;
+  background-color: #ffff;
+  transition: all 100ms ease-in-out;
+}
+#current-location-button {
+  color: #fff;
+  background-color: #ed5485;
+  border-style: none;
+}
+#current-location-button:hover {
+  color: #ed5485;
+  background-color: #ffff;
+  transition: all 100ms ease-in-out;
 }
