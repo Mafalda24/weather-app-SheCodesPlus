@@ -16,7 +16,7 @@ ul {
 }
 
 li {
-  color: #66bfbf;
+  color: #408d8d;
   font-size: 16px;
   font-weight: 300;
   height: 19px;
@@ -32,10 +32,11 @@ li {
   max-width: 600px;
 }
 
-.weather-icon {
-  height: 64px;
-  width: 64px;
-  margin-right: 10px;
+#weather-icon {
+  height: 65px;
+  width: 65px;
+  margin-right: 0;
+  margin-left: -13px;
 }
 
 .temperature {
@@ -57,7 +58,7 @@ li {
 
 #search-button {
   color: #fff;
-  background-color: #76ebeb;
+  background-color: #ed5485;
   border-style: none;
 }
 #search-button:hover {
@@ -67,7 +68,7 @@ li {
 }
 #current-location-button {
   color: #fff;
-  background-color: #ed5485;
+  background-color: #76ebeb;
   border-style: none;
 }
 #current-location-button:hover {
