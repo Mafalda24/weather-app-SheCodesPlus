@@ -91,3 +91,8 @@ p {
   font-size: 12px;
   margin: -60px 0 0 130px;
 }
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
