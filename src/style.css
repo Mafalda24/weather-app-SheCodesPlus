@@ -1,9 +1,13 @@
 body {
   font-family: "Quicksand", sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1487621167305-5d248087c724?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
-  color: #ed5485;
+  color: #76ebeb;
   font-size: 24px;
   font-weight: bolder;
   line-height: 28px;
@@ -16,7 +20,7 @@ ul {
 }
 
 li {
-  color: #408d8d;
+  color: #fff;
   font-size: 16px;
   font-weight: 300;
   height: 19px;
@@ -26,8 +30,9 @@ li {
 
 .weather-app {
   border: 1px solid #dadde1;
+
   padding: 15px 20px 40px 20px;
-  margin: 20px 50px 70px 0;
+  margin: 30px 50px 70px 245px;
   border-radius: 10px;
   max-width: 600px;
 }
@@ -40,7 +45,7 @@ li {
 }
 
 .temperature {
-  color: #000;
+  color: #fff;
   font-size: 50px;
   font-weight: 400;
   line-height: 1.5;
@@ -50,6 +55,7 @@ li {
 .units {
   position: relative;
   top: -34px;
+  color: #fff;
 }
 
 .search-form {
@@ -78,7 +84,7 @@ li {
 }
 
 .active {
-  color: #000;
+  color: #fff;
   cursor: default;
 }
 
@@ -89,13 +95,14 @@ li {
 
 p {
   font-size: 12px;
-  margin: -60px 0 0 130px;
+  margin: -60px 0 0 380px;
+  color: #fff;
 }
 
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: black;
+  color: #fff;
 }
 .weather-forecast-date {
   font-size: 16px;
